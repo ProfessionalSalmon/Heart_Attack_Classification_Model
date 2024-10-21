@@ -3,6 +3,7 @@
 This repository contains the code and resources for a Heart Attack Classification Model (Logistic Regression, kNN, and, Randomforest) developed to predict the likelihood of a heart attack based on various medical and lifestyle factors.
 
 ## Dataset
+The dataset used for this model is available on Kaggle and can be found at this [Heart Attack Dataset](https://www.kaggle.com/datasets/waqi786/heart-attack-dataset).
 
 - Age: Age of the patient
 
