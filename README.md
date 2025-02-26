@@ -46,10 +46,8 @@ To run the notebook locally, ensure you have the following libraries installed:
 ## Evaluation
 The model is evaluated using various metrics such as:
 
-Accuracy: How often the model makes the correct prediction.
-
-Precision & Recall: To assess the balance between false positives and false negatives.
+Classification Report: To assess the balance between false positives and false negatives.
 
 Confusion Matrix: For a breakdown of true vs. false predictions.
 
-Initial results show promising accuracy and reliable identification of patients at risk of a heart attack, though further tuning and validation may improve performance.
+Initial results show promising recall score and reliable identification of patients at risk of a heart attack, though further tuning and validation may improve performance.
