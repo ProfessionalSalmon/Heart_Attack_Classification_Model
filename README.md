@@ -1,6 +1,6 @@
 # Heart Attack Classification Model
 
-This repository contains the code and resources for a Heart Attack Classification Model (Logistic Regression, kNN, and, Randomforest) developed to predict the likelihood of a heart attack based on various medical and lifestyle factors.
+This repository contains the code and resources for a Heart Attack Classification Model (Neural Network, Logistic Regression, kNN, and Randomforest) developed to predict the likelihood of a heart attack based on various medical and lifestyle factors.
 
 ## Dataset
 The dataset used for this model is available on Kaggle and can be found at this [Heart Attack Dataset](https://www.kaggle.com/datasets/waqi786/heart-attack-dataset).
@@ -46,8 +46,7 @@ To run the notebook locally, ensure you have the following libraries installed:
 ## Evaluation
 The model is evaluated using various metrics such as:
 
-Classification Report: To assess the balance between false positives and false negatives.
+- Classification Report: To assess the balance between false positives and false negatives.
+- Confusion Matrix: For a breakdown of true vs. false predictions.
 
-Confusion Matrix: For a breakdown of true vs. false predictions.
-
-Initial results show promising recall score and reliable identification of patients at risk of a heart attack, though further tuning and validation may improve performance.
+Initial results from Logistic Regression and Random Forest show promising recall score and reliable identification of patients at risk of a heart attack, though further tuning and validation may improve performance.
