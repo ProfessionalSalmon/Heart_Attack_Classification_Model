@@ -2,51 +2,31 @@
 
 This repository contains the code and resources for a Heart Attack Classification Model (Neural Network, Logistic Regression, kNN, and Randomforest) developed to predict the likelihood of a heart attack based on various medical and lifestyle factors.
 
-## Dataset
+## 🤎Dataset
 The dataset used for this model is available on Kaggle and can be found at this [Heart Attack Dataset](https://www.kaggle.com/datasets/waqi786/heart-attack-dataset).
 
-- Age: Age of the patient
+- **Age**: Patient's age  
+- **Sex**: Patient's sex  
+- **exng**: Exercise-induced angina (1 = yes, 0 = no)  
+- **ca**: Major vessels count (0-3)  
+- **cp**: Chest pain type  
+  - **1**: Typical angina  
+  - **2**: Atypical angina  
+  - **3**: Non-anginal pain  
+  - **4**: Asymptomatic  
+- **trtbps**: Resting blood pressure (mm Hg)  
+- **chol**: Cholesterol (mg/dl) from BMI sensor  
+- **fbs**: Fasting blood sugar > 120 mg/dl (1 = true, 0 = false)  
+- **rest_ecg**: Resting ECG results  
+  - **0**: Normal  
+  - **1**: ST-T wave abnormality  
+  - **2**: Left ventricular hypertrophy (Estes' criteria)  
+- **thalach**: Max heart rate achieved  
+- **Target**:  
+  - **0** = Less chance of heart attack  
+  - **1** = More chance of heart attack  
 
-- Sex: Sex of the patient
-
-- exng: exercise induced angina (1 = yes; 0 = no)
-
-- ca: number of major vessels (0-3)
-
-- cp: Chest Pain type
-    - Value 1: typical angina
-    - Value 2: atypical angina
-    - Value 3: non-anginal pain
-    - Value 4: asymptomatic
-
-- trtbps: resting blood pressure (in mm Hg)
-
-- chol: cholestoral in mg/dl fetched via BMI sensor
-
-- fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
-
-- rest_ecg: resting electrocardiographic results
-    - Value 0: normal
-    - Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-    - Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
-
-- thalach: maximum heart rate achieved
-
-- Target variable: 0 = less chance of heart attack, 1 = more chance of heart attack
-
-## Usage
-To run the notebook locally, ensure you have the following libraries installed:
-
-- `pandas`
-- `numpy`
-- `scikit-learn`
-- `matplotlib`
-- `seaborn`
-
-## Evaluation
-The model is evaluated using various metrics such as:
-
-- Classification Report: To assess the balance between false positives and false negatives.
-- Confusion Matrix: For a breakdown of true vs. false predictions.
+## 🤎Evaluation
+The model is evaluated using Classification Report and Confusion Matrix.
 
 Initial results from Logistic Regression and Random Forest show promising recall score and reliable identification of patients at risk of a heart attack, though further tuning and validation may improve performance.
